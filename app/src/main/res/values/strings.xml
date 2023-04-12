@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">UTS_LocationSaver</string>
+
+    <!--  Fragment Settings  -->
+    <string name="change_language">Change Language</string>
+
+    <!--  Navigation Bottom  -->
+    <string name="title_maps">Maps</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_settings">Settings</string>
+
+    <!--  Recycler View  -->
+    <string name="title_item">Title Item</string>
+    <string name="label_latitude">Latitude :</string>
+    <string name="label_longitude">Longitude :</string>
+    <string name="placeholder_lat">The Latitude</string>
+    <string name="placeholder_long">The Longitude</string>
+    <string name="add_item">Add New Location</string>
+    <string name="feedback_remove">Location has been successfully removed!</string>
+
+    <!--  Add Item  -->
+    <string name="title_addItem">Add New Marker</string>
+    <string name="hint_title">Location Name</string>
+    <string name="hint_Latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Back</string>
+    <string name="feedback_save">Location added successfully</string>
+    <string name="feedback_form">Required!</string>
+    <string name="title_activity_map_fragment">MapFragment</string>
+</resources>

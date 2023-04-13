@@ -12,6 +12,10 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -25,6 +29,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PointOfInterest;
@@ -40,6 +45,8 @@ public class MapFragment extends Fragment {
     DatabaseReference reference;
     private ArrayList<LocationPoint> locationList = new ArrayList<>();
     private GoogleMap mMap;
+    MapStyleOptions retro;
+    MapStyleOptions night;
 
     private OnMapReadyCallback callback = new OnMapReadyCallback() {
 
@@ -77,9 +84,13 @@ public class MapFragment extends Fragment {
             });
 
             LatLng Custom = new LatLng(-7.782876, 110.367077);
-            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Custom, 10));
+            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Custom, 18));
             googleMap.getUiSettings().setZoomControlsEnabled(true);
             googleMap.getUiSettings().setCompassEnabled(true);
+
+            retro = MapStyleOptions.loadRawResourceStyle(getContext(), R.raw.retro_style);
+            night = MapStyleOptions.loadRawResourceStyle(getContext(), R.raw.night);
+            googleMap.setMapStyle(retro);
 
             googleMap.setOnPoiClickListener(pointOfInterest -> {
                 Marker markerPoi = googleMap.addMarker(new MarkerOptions()

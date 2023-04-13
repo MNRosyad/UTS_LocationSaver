@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UTS_LocationSaver</string>
+    <string name="app_name">Location Saver</string>
 
     <!--  Fragment Settings  -->
     <string name="change_language">Change Language</string>
@@ -28,4 +28,7 @@
     <string name="feedback_save">Location added successfully</string>
     <string name="feedback_form">Required!</string>
     <string name="title_activity_map_fragment">MapFragment</string>
+
+    <!--  Widget  -->
+    <string name="description">Best app for marking your places</string>
 </resources>

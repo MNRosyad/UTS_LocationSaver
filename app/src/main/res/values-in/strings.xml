@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penyimpan Lokasi</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="title_maps">Peta</string>
+    <string name="title_dashboard">Beranda</string>
+    <string name="title_settings">Pengaturan</string>
+    <string name="title_item">Judul barang</string>
+    <string name="label_latitude">Garis Lintang :</string>
+    <string name="label_longitude">Garis Bujur :</string>
+    <string name="placeholder_lat">Lintang</string>
+    <string name="placeholder_long">Bujur</string>
+    <string name="add_item">Tambahkan Lokasi Baru</string>
+    <string name="feedback_remove">Lokasi berhasil dihapus!</string>
+    <string name="title_addItem">Tambahkan Tanda Baru</string>
+    <string name="hint_title">Nama Lokasi</string>
+    <string name="hint_Latitude">Garis Lintang</string>
+    <string name="hint_longitude">Garis Bujur</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="feedback_save">Lokasi berhasil ditambahkan</string>
+    <string name="feedback_form">Wajib diisi!</string>
+    <string name="title_activity_map_fragment">Fragmen Peta</string>
+    <string name="description">Aplikasi terbaik untuk menandai tempat anda</string>
+</resources>

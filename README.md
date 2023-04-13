@@ -13,3 +13,7 @@ Sebuah aplikasi yang dapat **menyimpan koordinat peta** menggunakan API Google M
 ## Video Demonstrasi
 
 Link Video : [Google Drive](https://drive.google.com/file/d/118hh3Iiiy5kKgZkicRJuqYHfcTuYY2kD/view?usp=sharing)
+
+## APK Release
+
+Install aplikasi ini dengan mengunduh aplikasi pada [Release](https://github.com/MNRosyad/UTS_LocationSaver/releases/tag/apk-release)
